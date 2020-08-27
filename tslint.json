@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "ignore",
+        "multiline": {
+          "objects": "ignore",
+          "arrays": "ignore",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
+    ],
+    "semicolon": [false, "always"],
+    "no-trailing-spaces": [false, "always"],
+    "eol-last": [false, "always"],
+    "no-unused-vars": [false, "always"],
+    "no-multiple-empty-lines": [false, "always"]
+  }
+}
