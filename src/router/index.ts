@@ -7,8 +7,13 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Index',
-    component: () => import('../views/index.vue')
+    name: 'Login',
+    component: () => import('@/views/chatWs/login.vue')
+  },
+  {
+    path: '/chatRoom',
+    name: 'ChatRoom',
+    component: () => import('@/views/chatWs/chatRoom.vue')
   },
   {
     path: '/home',

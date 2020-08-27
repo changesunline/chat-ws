@@ -16,6 +16,7 @@
     "no-trailing-spaces": [false, "always"],
     "eol-last": [false, "always"],
     "no-unused-vars": [false, "always"],
-    "no-multiple-empty-lines": [false, "always"]
+    "no-multiple-empty-lines": [false, "always"],
+    "space-before-function-paren": [false, "always"]
   }
 }

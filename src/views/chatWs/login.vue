@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-// import { reName } from '@/utils/utils.ts'
+import { reName } from '@/utils/utils.ts'
 export default {
   name: 'ChatWs',
   data () {
@@ -11,6 +11,12 @@ export default {
       list: [],
     }
   },
+  methods: {
+    getRename () {
+      const name = reName('zhout')
+      console.log(name)
+    }
+  }
 }
 </script>
 

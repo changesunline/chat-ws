@@ -1,7 +1,5 @@
-function reName(name: String): String {
+function reName(name: string): string {
   return name
 }
-
-function name(params: string) {}
 
 export { reName }
